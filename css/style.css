@@ -1,0 +1,186 @@
+*{
+	box-sizing: content-box;
+}
+
+.mainCont{
+	padding:0;
+}
+.icons{
+	color: #f0454c;
+	 font-size: 16pt;
+	 margin-top:5px;
+	 margin-right:20px;
+}
+
+nav a {
+	font-size: 14px;
+	margin-right: 41px;
+	color:#314A5B;
+}
+
+header{
+	background-image:url(../image/mainPic.png);
+	background-repeat: no-repeat;
+	background-size:cover;
+	height: 1060px;
+	position:relative;
+    overflow: hidden;
+}
+
+.navBar{
+	position:absolute;
+	 }
+
+#logo{
+	width: 140px;
+	height:74px;
+	 background-color: #f0454c; 
+ 	 margin-right:450px;
+	 border:1px solid  #f0454c;
+	 border-radius:0 0 8px 8px;
+	 margin-top:-7px;
+	 left: 150px;
+
+}
+.slogan,nav a,.contentHead,.contentLink,.taemHead,.memberName{
+	font-family:'Montserrat', sans-serif;
+}
+
+.smallSlogan,.contentText,.teamSlogan,.memberSpec,.memberDesc{
+	font-family:'Open Sans', sans-serif; 
+}
+
+#logo h1{
+	color:white;
+	margin-top:60px;
+	font-size: 20px;
+	width:127px;
+	 margin:43px 14px;
+	 font-family:'Domine', serif;
+}
+
+#logo h1:after{
+	content:".";
+	color:#314A5B;
+}
+.headerText{
+	margin-top: 500px;
+}
+.slogan{
+	font-size: 40pt;
+	line-height: 70px;
+	font-weight: bold;
+	color:#314A5B;
+ }
+.slogan:after{
+	content:".";
+	font-size: 40pt;
+	color: #f0454c;
+}
+
+.smallSlogan{
+	font-size: 20pt;
+	color:#314A5B;
+}
+
+#readBtn{
+	height:60px;
+	width:170px;
+	background-color:  #f0454c;
+	color:white;
+	border-radius:10px;
+	border-style: none;
+	font-weight: bold;
+}
+
+.textCol{
+	height:200px;
+	margin-right:60px;
+}
+
+.contentText{
+	width: 300px;
+	font-size: 14pt;
+	color:#9AA0AB;
+}
+
+.contentSec{
+	margin-top:100px;
+}
+
+.contentHead{
+	font-size: 26px;
+	color:#314A5B; 
+	font-weight: bold;
+}
+
+.teamHead{
+	font-size: 32px;
+	color:#314A5B;
+	font-weight: bold;
+}
+
+.teamHead:after{
+	content:".";
+	color: #f0454c;
+}
+
+.teamSlogan{
+	color:#314A5B;
+}
+.contentLink{
+	font-size: 14pt;
+	color: #f0454c;
+}
+
+.contentLink:after{
+	content: " →"
+ 
+}
+
+.member img {
+	    height:120px;
+}
+
+ .TeamSec{
+ 	margin-top:90px;
+ }
+
+ .memberName{
+	font-size:22px;
+	color:#314A5B;
+ }
+
+ .memberDesc{
+	height:40px;
+	width: 190px;
+	font-size:12pt;
+	color:#9AA0AB;
+	margin-top:0;
+ }
+
+.memberSpec{
+	margin-bottom:10px;
+	color: #f0454c;
+	font-size: 14pt;
+}
+
+.footerIc{
+	font-size: 16pt;
+	color:#B9C0C6;
+	margin-right:10px;
+}
+
+.footerCont{
+ border-top: 1px solid #B9C0C6;
+}
+
+.footerRow{
+	height:100px;
+}
+
+#designedBy{
+	font-size: 13pt;
+	color:#B9C0C6;
+ 
+}
